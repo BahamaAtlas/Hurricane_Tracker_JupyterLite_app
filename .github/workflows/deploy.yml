@@ -22,6 +22,7 @@ jobs:
           python-version: 3.8
       - name: Install the dependencies
         run: |
+          sudo apt install python3-dev libproj-dev proj-data proj-bin libgeos-dev
           python -m pip install -r requirements.txt
         #uses: conda-incubator/setup-miniconda@v2
         #with:
