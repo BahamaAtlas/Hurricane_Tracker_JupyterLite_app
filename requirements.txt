@@ -23,6 +23,6 @@ numpy
 pip
 pandas
 requests
-cartopy
+cartopy==0.19.0.post1
 ipywidgets
 matplotlib
